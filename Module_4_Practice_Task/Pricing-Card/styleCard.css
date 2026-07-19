@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-height: 100vh;
+}
+
+.card1,
+.card2,
+.card3 {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 350px;
+  height: 650px;
+  padding: 19px;
+  position: relative;
+}
+.card1 h4,
+.card2 h4,
+.card3 h4 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+}
+.card1 > h1,
+.card2 > h1,
+.card3 > h1 {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.card1 > p,
+.card2 > p,
+.card3 > p {
+  color: #d8e3e7;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.price h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+small {
+  font-size: 18px;
+  color: #d8e3e7;
+}
+
+.current-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: transparent;
+  color: #d8e3e7;
+  border: 1px solid gray;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.current-btn:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.upgrade-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 40px;
+}
+.upgrade-btn:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: #d8e3e7;
+}
+.data {
+  margin-top: 30px;
+}
+
+.data div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.data div i {
+  color: white;
+  size: 20px;
+}
+.data div p {
+  color: #d8e3e7;
+}
+.card3-head {
+  color: #d8e3e7;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  margin-top: 10px;
+  color: #d8e3e7;
+}
+.footer a {
+  color: white;
+  font-size: 18px;
+}
+
+.card1 .footer {
+  margin-top: 1px;
+}
+
+.card1,
+.card2,
+.card3 {
+  background: linear-gradient(135deg, #111827 0%, #374151 100%);
+}
+/* .card2 {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+.card3 {
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+} */
